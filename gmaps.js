@@ -130,7 +130,7 @@ var findAbsolutePosition = function(obj)  {
   return [curleft, curtop];
 };
 
-var GMaps = (function(global) {
+window.GMaps = (function(global) {
   "use strict";
 
   var doc = document;
